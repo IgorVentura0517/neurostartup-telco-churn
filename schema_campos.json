@@ -1,0 +1,157 @@
+{
+  "gender": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "Female",
+      "Male"
+    ],
+    "valor_padrao": "Male"
+  },
+  "SeniorCitizen": {
+    "tipo": "int",
+    "min": 0.0,
+    "max": 1.0,
+    "mediana_padrao": 0.0
+  },
+  "Partner": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "Dependents": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "tenure": {
+    "tipo": "int",
+    "min": 0.0,
+    "max": 72.0,
+    "mediana_padrao": 29.0
+  },
+  "PhoneService": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "Yes"
+    ],
+    "valor_padrao": "Yes"
+  },
+  "MultipleLines": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "No phone service",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "InternetService": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "valor_padrao": "Fiber optic"
+  },
+  "OnlineSecurity": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "OnlineBackup": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "DeviceProtection": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "TechSupport": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "StreamingTV": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "valor_padrao": "Yes"
+  },
+  "StreamingMovies": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "No internet service",
+      "Yes"
+    ],
+    "valor_padrao": "No"
+  },
+  "Contract": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "Month-to-month",
+      "One year",
+      "Two year"
+    ],
+    "valor_padrao": "Month-to-month"
+  },
+  "PaperlessBilling": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "No",
+      "Yes"
+    ],
+    "valor_padrao": "Yes"
+  },
+  "PaymentMethod": {
+    "tipo": "categoria",
+    "valores_aceitos": [
+      "Bank transfer (automatic)",
+      "Credit card (automatic)",
+      "Electronic check",
+      "Mailed check"
+    ],
+    "valor_padrao": "Electronic check"
+  },
+  "MonthlyCharges": {
+    "tipo": "float",
+    "min": 18.4,
+    "max": 118.75,
+    "mediana_padrao": 70.4
+  },
+  "TotalCharges": {
+    "tipo": "float",
+    "min": 0.0,
+    "max": 8684.8,
+    "mediana_padrao": 1380.1
+  }
+}
