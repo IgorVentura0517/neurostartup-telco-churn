@@ -17,7 +17,7 @@ O projeto prevê o cancelamento de clientes de uma operadora de telecomunicaçõ
 
 ## Dados e metodologia
 
-Cada linha do dataset representa um cliente. A variável alvo é `Churn`, em que `Yes` indica cancelamento e `No` indica permanência. A análise exploratória apresenta a distribuição de `Churn` e a taxa de cancelamento por tipo de contrato.
+Cada linha do dataset representa um cliente. A variável alvo é `Churn`, em que `Yes` indica cancelamento e `No` indica permanência. A análise exploratória mostra a taxa de cancelamento por tipo de contrato e compara a distribuição do tempo de relacionamento entre clientes que cancelaram e clientes que permaneceram.
 
 Os dados foram divididos de forma estratificada em 60% para treino, 20% para validação e 20% para teste, com seed `42`. O pré-processamento foi ajustado somente no treino. Foram comparadas uma regressão logística e três configurações de redes neurais em Keras, com *early stopping*. A validação orientou a escolha da rede para a demonstração e dos limiares de classificação. O teste foi reservado para a comparação final.
 
