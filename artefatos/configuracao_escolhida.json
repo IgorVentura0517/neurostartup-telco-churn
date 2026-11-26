@@ -1,0 +1,38 @@
+{
+  "criterio": "F1 da classe Churn=Yes na validacao; desempate por precision",
+  "baseline_ou_rede_vencedor_geral": "RegressaoLogistica",
+  "f1_vencedor_geral": 0.6293532338308457,
+  "limiar_vencedor_geral": 0.375,
+  "rede_selecionada_para_interface": "Keras_1",
+  "arquitetura_rede": "16",
+  "limiar_rede": 0.275,
+  "f1_rede_validacao": 0.6285714285714286,
+  "features_esperadas": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "seed": 42,
+  "proporcao": {
+    "treino": 0.6,
+    "validacao": 0.2,
+    "teste_reservado": 0.2
+  },
+  "avaliacao_teste_realizada": false
+}
